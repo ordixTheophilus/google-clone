@@ -1,0 +1,40 @@
+@font-face {
+    font-family:product sans ;
+    src: url(./google-product-sans.jpg);
+}
+
+.Header{
+    text-align: end;
+    padding-right: 1rem;
+}
+.Header a{
+    padding-right: 2rem;
+}
+
+
+.container{
+width: 70%;
+margin: 0 auto;
+height: 90vh;
+margin-top: 5rem;
+text-align: center;
+}
+
+.Search{
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+    border-radius: 2rem;
+    object-fit: contain;
+}
+.Search input{
+    flex-grow: 1;
+    width: 80%;
+    height: 10vh;
+    border: none;
+    outline: none;
+    border-radius: 10rem;
+}
+.Body{
+    font-family:product sans ;
+}
